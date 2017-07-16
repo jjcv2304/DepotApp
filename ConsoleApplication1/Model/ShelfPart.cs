@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.Model
 {
-    class ShelfPart
+    public class ShelfPart
     {
         //width height name (A4) location
         public int Id { get; set; }

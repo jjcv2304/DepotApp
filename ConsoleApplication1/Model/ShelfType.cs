@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.Model
 {
-    class ShelfType
+    public class ShelfType
     {
         //name desc
         public int Id { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.Model
 {
-    class Shelf
+    public class Shelf
     {
         //name desc type width height location(string) carefoull this info is also in shelfpart
         public int Id { get; set; }

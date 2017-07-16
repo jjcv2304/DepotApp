@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ItemType.cs" />
+    <Compile Include="Model\Shelf.cs" />
+    <Compile Include="Model\ShelfPart.cs" />
+    <Compile Include="Model\ShelfType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
