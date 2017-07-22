@@ -106,7 +106,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="QUESTIONS AND ANSWERS.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

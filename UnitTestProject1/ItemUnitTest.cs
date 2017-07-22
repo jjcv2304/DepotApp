@@ -7,7 +7,7 @@ namespace UnitTestProject1
     [TestClass]
     public class ItemUnitTest
     {
-        public Item CreateItemForTest(int id)
+        private Item CreateItemForTest(int id)
         {
             var item1 = new Item()
             {

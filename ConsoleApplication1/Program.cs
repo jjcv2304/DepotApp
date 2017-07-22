@@ -11,8 +11,21 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var item = new Item();
+            // var item = new Item();
 
+            //Screens:
+            //Dashboard with: 
+            //  - Items with low availability
+            //  - Statistics of shelf available space
+            //  - 
+            //  -
+            //  -
+            //  -
+            //Search for items
+            //Add/edit items
+            //Add/edit item types
+            //Item details-> shelf if available
+            //
         }
     }
 }
