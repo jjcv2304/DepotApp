@@ -2,7 +2,7 @@
 
 namespace ItemsAndContainersManagement.Core.Model
 {
-     public class Item: IEntity
+     public class Item: IEntity 
     {
          public Item()
          {

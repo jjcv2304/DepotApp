@@ -236,6 +236,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\API\ContainerController.cs" />
     <Compile Include="Controllers\API\ItemsController.cs" />
+    <Compile Include="Controllers\API\StockController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -318,6 +319,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ItemsAndContainersManagement.Core\ItemsAndContainersManagement.Core.csproj">
+      <Project>{3702B22B-8623-418C-A2B7-47ADF6A1D758}</Project>
+      <Name>ItemsAndContainersManagement.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockManagement.Core\StockManagement.Core.csproj">
+      <Project>{24AE8815-11C6-42AD-9B42-92CC08EE1AB8}</Project>
+      <Name>StockManagement.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
