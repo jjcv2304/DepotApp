@@ -1,6 +1,8 @@
-﻿namespace StockManagement.Core.Model
+﻿using Depot.SharedKernel;
+
+namespace StockManagement.Core.Model
 {
-    public class Container
+    public class Container : Entity<int>
     {
         //name desc type width height location(string) carefoull this info is also in shelfpart
         public int Id { get; set; }

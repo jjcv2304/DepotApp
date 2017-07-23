@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IStockRepository.cs" />
+    <Compile Include="Model\Assignment.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\ItemFilter.cs" />
     <Compile Include="Model\ItemType.cs" />

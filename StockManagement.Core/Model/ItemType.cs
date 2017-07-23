@@ -1,6 +1,8 @@
-﻿namespace StockManagement.Core.Model
+﻿using Depot.SharedKernel;
+
+namespace StockManagement.Core.Model
 {
-    public class ItemType
+    public class ItemType : Entity<int>
     {
         //todo use oo technics
         //Name desc
