@@ -43,6 +43,7 @@
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ItemOrigin.cs" />
     <Compile Include="Model\ItemType.cs" />
     <Compile Include="Model\Container.cs" />
     <Compile Include="Model\ContainerType.cs" />

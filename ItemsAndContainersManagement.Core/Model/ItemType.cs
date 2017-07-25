@@ -1,6 +1,8 @@
-﻿namespace ItemsAndContainersManagement.Core.Model
+﻿using ItemsAndContainersManagement.Core.Interfaces;
+
+namespace ItemsAndContainersManagement.Core.Model
 {
-    public class ItemType
+    public class ItemType : IEntity
     {
         //todo use oo technics
         //Name desc

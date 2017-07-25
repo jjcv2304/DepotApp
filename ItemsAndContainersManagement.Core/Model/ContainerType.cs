@@ -1,6 +1,8 @@
-﻿namespace ItemsAndContainersManagement.Core.Model
+﻿using ItemsAndContainersManagement.Core.Interfaces;
+
+namespace ItemsAndContainersManagement.Core.Model
 {
-    public class ContainerType
+    public class ContainerType : IEntity
     {
         //name desc
         public int Id { get; set; }

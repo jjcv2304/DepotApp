@@ -4,10 +4,10 @@ namespace StockManagement.Core.Model
 {
     public class ItemType : Entity<int>
     {
-        //todo use oo technics
-        //Name desc
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
+        public ItemType(int id)
+            : base(id) { }
+        public ItemType() { }
     }
 }
