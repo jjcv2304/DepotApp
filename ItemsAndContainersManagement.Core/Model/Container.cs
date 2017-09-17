@@ -14,5 +14,8 @@ namespace ItemsAndContainersManagement.Core.Model
         public int ContainerParentId { get; set; }
         //Todo investigate if better to point to childs or to parent
         public Container ContainerParent { get; set; }
+        public ContainerType ContainerType { get; set; }
+        public int ContainerTypeId { get; set; }
+
     }
 }

@@ -11,7 +11,7 @@ github.com/johnpapa/angular-event-view-cli
 npm list -g @angular/cli --depth=0
 ng new my-app --dry-run  -> to show us which files would be generated
 ng new depotApp --routing --prefix depot --style scss
-ng lint --format stylish
+ng lint --format stylish 
 
 Blueprints
 ng generate <blueprint> <options> [--dry-run]

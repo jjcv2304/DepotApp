@@ -1,11 +1,13 @@
-﻿namespace StockManagement.Core.Model
-{
-    public class ItemType
-    {
-        //todo use oo technics
-        //Name desc
-        public int Id { get; set; }
-        public string Name { get; set; }
+﻿using Depot.SharedKernel;
 
+namespace StockManagement.Core.Model
+{
+    public class ItemType : Entity<int>
+    {
+        public string Name { get; private set; }
+
+        public ItemType(int id)
+            : base(id) { }
+        public ItemType() { }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockManagement.Core.Model
 {
-    public class ItemFilter
+    public class ItemFilter//move to appropiate folder
     {
         public string Name { get; set; }
         public ItemType ItemType { get; set; }
